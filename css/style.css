@@ -128,12 +128,21 @@ h6 {
 }
 
 .section-header p {
-  text-align: center;
+  /* text-align: center; */
   padding: 0;
   margin: 0;
-  font-size: 18px;
+  /* font-size: 16x; */
   font-weight: 500;
-  color: #9195a2;
+  color: #112363;
+}
+
+.section-header ul{
+  /* text-align: center; */
+  /* padding: 0; */
+  /* margin: 0; */
+  /* font-size: 16x; */
+  font-weight: 500;
+  color: #112363;
 }
 
 .section-with-bg {
@@ -657,7 +666,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 
 #about {
-  background: url("../img/about-bg.jpg");
+  /* background: url("../img/plaza.jpeg"); */
   background-size: cover;
   overflow: hidden;
   position: relative;
@@ -891,6 +900,27 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
   margin-left: 70px;
 }
+
+/*--------------------------------------------------------------
+# Schedule Section
+--------------------------------------------------------------*/
+
+#covid {
+  padding: 60px 0 60px 0;
+}
+
+
+
+#covid .sub-heading {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto 30px auto;
+}
+
+
+
+
 
 /*--------------------------------------------------------------
 # Venue Section

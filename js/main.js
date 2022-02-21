@@ -13,12 +13,38 @@ jQuery(document).ready(function( $ ) {
     return false;
   });
 
+  function isScrolledIntoView(elem) {
+    var docViewTop = $(window).scrollTop();
+    var docViewBottom = docViewTop + $(window).height();
+  
+    var elemTop = $(elem).offset().top;
+    var elemBottom = elemTop + $(elem).height();
+  
+    return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+  }
+
   // Header fixed on scroll
-  $(window).scroll(function() {
+  $(window).scroll(function(e) {
     if ($(this).scrollTop() > 100) {
-      $('#header').addClass('header-scrolled');
+    $('#header').addClass('header-scrolled');
     } else {
       $('#header').removeClass('header-scrolled');
+    }
+    $('section').each(function() {
+      if($(this).offset().top - 200 < $(window).scrollTop()) {
+        let id = '#' + $(this).attr('id')
+        $('li').removeClass('menu-active')
+        let nextId = 'li' + id + 'Nav'
+        $(nextId).addClass('menu-active')
+      }
+    }) 
+    var anchors = $('section');
+    for (var i = 0; i < anchors.length; ++i) {
+        if (isScrolledIntoView(anchors[i])) {
+            var href = $(anchors[i]).attr('id');
+            location.hash = href.slice(href.indexOf('#') + 1);
+            break;
+        }
     }
   });
 
