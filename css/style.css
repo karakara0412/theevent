@@ -830,6 +830,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #0e1b4d;
   color: #fff;
   padding: 10px 100px;
+  margin-bottom: 10px;
 }
 
 #schedule .nav-tabs a.active {
