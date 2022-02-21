@@ -902,7 +902,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# Schedule Section
+# Covid Section
 --------------------------------------------------------------*/
 
 #covid {
@@ -918,7 +918,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 auto 30px auto;
 }
 
+/*--------------------------------------------------------------
+# Code of Conduct Section
+--------------------------------------------------------------*/
 
+#code {
+  padding: 60px 0 60px 0;
+}
+
+
+
+#covid .sub-heading {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto 30px auto;
+}
 
 
 
