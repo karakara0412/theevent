@@ -840,7 +840,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #schedule .sub-heading {
   text-align: center;
   font-size: 18px;
-  font-style: italic;
+  /* font-style: italic; */
   margin: 0 auto 30px auto;
 }
 
@@ -901,6 +901,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 70px;
 }
 
+#schedule .schedule-item li {
+  /* font-style: italic; */
+  color: #152b79;
+  margin-bottom: 0;
+  margin-left: 70px;
+}
+
 /*--------------------------------------------------------------
 # Covid Section
 --------------------------------------------------------------*/
@@ -919,6 +926,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
+# Registration Section
+--------------------------------------------------------------*/
+
+#registration {
+  padding: 60px 0 60px 0;
+}
+
+
+
+#registration .sub-heading {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto 30px auto;
+}
+
+/*--------------------------------------------------------------
 # Code of Conduct Section
 --------------------------------------------------------------*/
 
@@ -928,7 +952,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 
-#covid .sub-heading {
+#code .sub-heading {
   text-align: center;
   font-size: 18px;
   font-style: italic;

@@ -14,13 +14,10 @@ template.innerHTML = `
 		<ul class="nav-menu">
 			<li id="introNav" class="menu-active"><a href="index.html">Home</a></li>
 			<li id="scheduleNav"><a href="#schedule">Schedule</a></li>
+			<li id="registrationNav"><a href="#registration"> Registration Info</a></li>
 			<li id="covidNav"><a href="#covid">COVID</a></li>
 			<li id="codeNav"><a href="#code">Code of Conduct</a></li>
-			<li id="galleryNav"><a href="#gallery">Gallery</a></li>
-			<li id="speakersNav"><a href="#speakers">Speakers</a></li>
-			<li id="supportersNav"><a href="#supporters">Sponsors</a></li>
-			<li id="contactNav"><a href="#contact">Contact</a></li>
-			<li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li>
+			<li id="faqNav"><a href="#faq">FAQ</a></li>
 		</ul>
 	</nav><!-- #nav-menu-container -->
 </div>
