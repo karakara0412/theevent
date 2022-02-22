@@ -931,16 +931,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# Registration Section
+# checkin Section
 --------------------------------------------------------------*/
 
-#registration {
+#checkin {
   padding: 60px 0 60px 0;
 }
 
 
 
-#registration .sub-heading {
+#checkin .sub-heading {
   text-align: center;
   font-size: 18px;
   font-style: italic;
