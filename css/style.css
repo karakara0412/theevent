@@ -863,6 +863,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #schedule .schedule-item time {
   padding-bottom: 5px;
   display: inline-block;
+  /* color: #ee6981; */
+  font-weight: 600;
+  margin-left: 70px;
 }
 
 #schedule .schedule-item .speaker {
@@ -886,6 +889,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
+  color: #ee6981
 }
 
 #schedule .schedule-item h4 span {
