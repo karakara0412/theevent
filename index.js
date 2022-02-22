@@ -12,7 +12,7 @@ template.innerHTML = `
 
 	<nav id="nav-menu-container">
 		<ul class="nav-menu">
-			<li id="introNav" class="menu-active"><a href="main_site.html">Home</a></li>
+			<li id="introNav" class="menu-active"><a href="home">Home</a></li>
 			<li id="scheduleNav"><a href="#schedule">Schedule</a></li>
 			<li id="registrationNav"><a href="#registration"> Registration Info</a></li>
 			<li id="covidNav"><a href="#covid">COVID</a></li>
