@@ -932,6 +932,23 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
+# Hotel Section
+--------------------------------------------------------------*/
+
+#hotel {
+  padding: 60px 0 60px 0;
+}
+
+
+
+#hotel .sub-heading {
+  text-align: center;
+  font-size: 18px;
+  font-style: italic;
+  margin: 0 auto 30px auto;
+}
+
+/*--------------------------------------------------------------
 # checkin Section
 --------------------------------------------------------------*/
 

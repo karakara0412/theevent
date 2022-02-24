@@ -15,6 +15,7 @@ template.innerHTML = `
 			<li id="introNav" class="menu-active"><a href="home">Home</a></li>
 			<li id="scheduleNav"><a href="#schedule">Schedule</a></li>
 			<li id="checkInNav"><a href="#checkin"> Check-In Info</a></li>
+			<li id="hotelNav"><a href="#hotel"> Party Floor Access</a></li>
 			<li id="covidNav"><a href="#covid">COVID</a></li>
 			<li id="codeNav"><a href="#code">Code of Conduct</a></li>
 			<li id="faqNav"><a href="#faq">FAQ</a></li>
